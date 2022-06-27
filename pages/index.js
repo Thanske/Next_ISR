@@ -12,7 +12,7 @@ const home = ({ popularMovies }) => {
             <Link href={`/popular_movies/${id}`}>
               <a>
                 <h3>{original_title}</h3>
-                <img
+                <Image
                   src={`https://image.tmdb.org/t/p/w500${poster_path}`}
                   alt={original_title}
                 />
